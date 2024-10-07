@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Tanques Rusos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #444;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .nav-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .nav-buttons a {
+            padding: 10px 20px;
+            background: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+        .nav-buttons a:hover {
+            background: #666;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .grid-item {
+            background: #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 900px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Tanques Rusos</h1>
+    </header>
+
+    <div class="container">
+        <div class="nav-buttons">
+            <a href="index.html">Descripción</a>
+            <a href="galeria.html">Galería</a>
+            <a href="fuerzas_terrestres.html">Fuerzas Terrestres</a>
+        </div>
+
+        <h2>Tanques</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="tank-t-34_bd765907_1280x708.jpeg" alt="T-34">
+                <p>T-34</p>
+            </div>
+            <div class="grid-item">
+                <img src="t55.jpg" alt="T-55">
+                <p>T-55</p>
+            </div>
+            <div class="grid-item">
+                <img src="T72.jpg" alt="T-72">
+                <p>T-72</p>
+            </div>
+            <div class="grid-item">
+                <img src="T-80B.jpg" alt="T-80">
+                <p>T-80</p>
+            </div>
+            <div class="grid-item">
+                <img src="T90.jpg" alt="T-90">
+                <p>T-90</p>
+            </div>
+        </div>
+
+        <h2>Vehículos de Combate de Infantería</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="bmp1.jpg" alt="BMP-1">
+                <p>BMP-1</p>
+            </div>
+            <div class="grid-item">
+                <img src="bmp2.jpg" alt="BMP-2">
+                <p>BMP-2</p>
+            </div>
+            <div class="grid-item">
+                <img src="BTR80A.jpg" alt="BTR-80">
+                <p>BTR-80</p>
+            </div>
+        </div>
+
+        <h2>Artillería</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="2s19mst.jpg" alt="2S19 Msta">
+                <p>2S19 Msta</p>
+            </div>
+            <div class="grid-item">
+                <img src="2S1_Gvozdika.jpg" alt="2S1 Gvozdika">
+                <p>2S1 Gvozdika</p>
+            </div>
+        </div>
+
+        <h2>Sistemas de Defensa Aérea</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="buk.jpg" alt="Buk">
+                <p>Buk</p>
+            </div>
+            <div class="grid-item">
+                <img src="tor.jpg" alt="Tor">
+                <p>Tor</p>
+            </div>
+        </div>
+
+        <h2>Helicópteros de Combate</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="Mi24CP.jpg" alt="Mi-24">
+                <p>Mi-24</p>
+            </div>
+            <div class="grid-item">
+                <img src="mi28.jpg" alt="Mi-28">
+                <p>Mi-28</p>
+            </div>
+            <div class="grid-item">
+                <img src="ka52.jpg" alt="Ka-52">
+                <p>Ka-52</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
